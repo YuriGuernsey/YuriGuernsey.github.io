@@ -1,2 +1,0 @@
-# Yuri
-My Personal Site
