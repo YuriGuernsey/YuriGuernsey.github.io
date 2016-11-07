@@ -1,0 +1,98 @@
+
+<html>
+	<head>
+		<title> Mobile World Station - Pay as you go</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<header>
+		<ul>
+			<div class="logo">
+				<li><a href="index.html"><img src="Images/logo.png" width="50px"/></a></li>
+			</div>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="apple.html">Apple</a></li>
+			<li><a href="android.html">Android</a></li>
+			<li><a href="windows.html">Windows</a></li>
+			<li class="dropdown">
+				<a href="services.html" class="dropbtn">Services</a>
+				<div class="dropdown-content">
+					<a href="payg.html">Pay as you go</a>
+					<a href="contract.html">Contract</a>
+				</div>
+			<li class="dropdown">
+				<a href="accessories.html" class="dropbtn">Accessories</a>
+					<div class="dropdown-content">
+						<a href="speakers.html">Speakers</a>
+					</div>
+			</li>
+		</ul>
+	</header>
+	<body>
+		<article>
+		<center>
+			<img class="mySlides" src="Images/Iphone.jpg" width="70%" height="50%">
+			<img class="mySlides" src="Images/Iphone2.jpg" width="70%"  height="50%">
+			<img class="mySlides" src="Images/Other.jpg" width="70%"  height="50%">
+			<img class="mySlides" src="Images/Sams.jpg" width="70%"  height="50%">
+			<hr />
+			<h3> Pay as you go </h3>
+			<hr />
+			<table>
+					<tr>
+						 <td>
+						 	IPhone 
+						</td>
+						<td>
+						 	Windows
+						</td>
+						<td>
+						 	LG
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+						<img src="Images/iphone5.png" width="130px"/>
+						<br/>
+						&pound500
+						<form>
+								<button type="button" onclick="alert('You purchased an IPhone 5')">Buy</button>
+						</form>
+						</td>
+						<td><img src="Images/windows.jpg" width="130px"/>
+						<br/>
+						&pound220
+						<form>
+							<button type="button" onclick="alert('You purchased a  Windows Phone')">Buy </button>
+						</form></td>
+						<td><img src="Images/lg.png" width="130px"/>
+						<br/>
+						&pound350
+						<form>
+							<button type="button" onclick="alert('You purchased an LG Phone')">Buy</button>
+						</form>
+					</tr>
+				</table>
+		</center>
+
+	</body>
+<script>
+	var slideIndex = 4;
+	carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+</html>
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

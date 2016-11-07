@@ -1,0 +1,140 @@
+
+<html>
+	<head>
+		<title> Mobile World Station - Contract</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<header>
+		<ul>
+			<div class="logo">
+				<li><a href="index.html"><img src="Images/logo.png" width="50px"/></a></li>
+			</div>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="apple.html">Apple</a></li>
+			<li><a href="android.html">Android</a></li>
+			<li><a href="windows.html">Windows</a></li>
+			<li class="dropdown">
+				<a href="services.html" class="dropbtn">Services</a>
+				<div class="dropdown-content">
+					<a href="payg.html">Pay as you go</a>
+					<a href="contract.html">Contract</a>
+				</div>
+			<li class="dropdown">
+				<a href="accessories.html" class="dropbtn">Accessories</a>
+					<div class="dropdown-content">
+						<a href="speakers.html">Speakers</a>
+					</div>
+			</li>
+		</ul>
+	</header>
+	<body>
+		<article>
+		<center>
+			<img class="mySlides" src="Images/Iphone.jpg" width="70%" height="50%">
+			<img class="mySlides" src="Images/Iphone2.jpg" width="70%"  height="50%">
+			<img class="mySlides" src="Images/Other.jpg" width="70%"  height="50%">
+			<img class="mySlides" src="Images/Sams.jpg" width="70%"  height="50%">
+			<hr />
+			<h3> Contract </h3>
+			<hr />
+			<table border="solid 5px 5px 5px 5px black">
+			<tr>
+				<td></td>
+						<td>IPhone 5S</td>
+						<td>IPhone 6S</td>
+						<td>Android Huawei Nexus 6P</td>
+						<td>Windows Lumina 950 XL</td>
+			</tr>
+					<tr>
+						 <td>
+						 	3 Month plan
+						</td>
+						 <td>
+						 	&pound267
+						</td>
+						<td>
+						 	&pound133
+						</td>
+						<td>
+						 	&pound89
+						</td>
+						<td>
+						 	&pound67
+						</td>
+					</tr>
+					<tr>
+						<td>
+						 	6 Month plan
+						</td>
+						 <td>
+						 	&pound267
+						</td>
+						<td>
+						 	&pound267
+						</td>
+						<td>
+						 	&pound267
+						</td>
+						<td>
+						 	&pound267
+						</td>
+						</tr>
+					<tr>
+						<td>
+						 	9 Month plan
+						</td>
+						 <td>
+						 	&pound117
+						</td>
+						<td>
+						 	&pound58
+						</td>
+						<td>
+						 	&pound39
+						</td>
+						<td>
+						 	&pound29
+						</td>
+						</tr>
+					<tr>
+						<td>
+						 	12 Month plan
+						</td>
+						 <td>
+						 	&pound150
+						</td>
+						<td>
+						 	&pound75
+						</td>
+						<td>
+						 	&pound50
+						</td>
+						<td>
+						 	&pound37.50
+						</td>
+						</tr>
+					</tr>
+				</table>
+		</center>
+
+	</body>
+<script>
+	var slideIndex = 4;
+	carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+</html>
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->
