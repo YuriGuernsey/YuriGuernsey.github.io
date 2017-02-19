@@ -1,80 +1,94 @@
-.proj_gen{
+.proj_gen {
     text-align: center;
-  font-size: 750%;
-  max-width: 900px;
+    font-size: 750%;
+    max-width: 900px;
     margin-top: 10%;
 }
 
-.Title{
- font-size: 450%;
- text-align: center;
+.Title {
+    font-size: 450%;
+    text-align: center;
     margin-top: 5%;
 }
 
-.instructions{
+.instructions {
     text-align: center;
     font-size: 150%;
     color: white;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
+.wrapper2 {
+    background: #00BFFF;
+    background: -webkit-linear-gradient(top left, #50a3a2 5%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 5%, #00BFFF 100%);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
 .wrapper {
-  background: #00BFFF;
-  background: -webkit-linear-gradient(top left, #50a3a2 5%, #53e3a6 100%);
-  background: linear-gradient(to bottom right, #50a3a2 5%, #00BFFF 100%);
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: block;
+    background: #00BFFF;
+    background: -webkit-linear-gradient(top left, #50a3a2 5%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 5%, #00BFFF 100%);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
 }
 
 * {
-margin: 0;
+    margin: 0;
 }
-html, body {
-height: 100%;
+
+html,
+body {
+    height: 100%;
+    color: white;
 }
 
 .footer {
-  max-width: 100%;
-  max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     text-align: center;
-  color: white;
+    color: white;
     margin-top: 5%;
     font-size: 130%
 }
 
 .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  -webkit-box-shadow: 0px 1px 3px #09ace3;
-  -moz-box-shadow: 0px 1px 3px #09ace3;
-  box-shadow: 0px 1px 3px #09ace3;
-  font-family: Arial;
-  color: #000000;
-  font-size: 15px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #09ace3;
+    -moz-box-shadow: 0px 1px 3px #09ace3;
+    box-shadow: 0px 1px 3px #09ace3;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
